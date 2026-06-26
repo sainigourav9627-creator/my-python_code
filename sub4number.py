@@ -1,0 +1,5 @@
+a=int(input("enter the 1ist value:"))
+b=int(input("enter the 2nd value:"))
+c=int(input("enter the 3rd value:"))
+d=int(input("enter the 4th value:"))
+print("sub:=",a-b-c-d)
