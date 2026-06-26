@@ -1,4 +1,4 @@
-a=int(input("enter the ist value:"))
+a=int(input("enter the 1st value:"))
 b=int(input("enter the 2nd value:"))
 c=int(input("enter the 3rd value:"))
 d=int(input("enter the 4th value:"))
