@@ -1,0 +1,7 @@
+subj1=int(input("enter subject 1:"))
+subj2=int(input("enter subject 2:"))
+subj3=int(input("enter subject 3:"))
+subj4=int(input("enter subject 4:"))
+subj5=int(input("enter subject 5:"))
+total_marks=(subj1+subj2+subj3+subj4+subj5)
+print("total_marks=",total_marks)
