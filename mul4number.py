@@ -1,0 +1,5 @@
+a=int(input("enter the fist value:"))
+b=int(input("enter the 2nd value:"))
+c=int(input("enter the 3rd value:"))
+d=int(input("enter the 4th value:"))
+print("multiply:=",a*b*c*d)
