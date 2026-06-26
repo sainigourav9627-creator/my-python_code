@@ -1,3 +1,3 @@
-a=int(input("enter the fist value:"))
+a=int(input("enter the 1st value:"))
 b=int(input("enter the 2nd value:"))
 print("add:=",a+b)
