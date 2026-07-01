@@ -1,5 +1,6 @@
-num=int(input("enter the value"))
-if num>=15:
- print("negative")
+number = int(input("Enter number: "))
+
+if number > 0:
+    print("Positive")
 else:
-  print("positive")
+    print("Negative or Zero")
