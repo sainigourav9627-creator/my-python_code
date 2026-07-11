@@ -6,7 +6,7 @@ multiplaction=a*b
 divide=a/b
 modules=a%b   #module 
 floor_division=a//b  #floor divisoin
-power=a**b  #square root
+power=a**b  #power
 print("addtion:",addition)
 print("subtraction:",subtraction)
 print("multiplaction:",multiplaction)
