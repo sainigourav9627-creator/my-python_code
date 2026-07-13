@@ -39,3 +39,4 @@ elif choice == 4:
     elif marks>=33 and marks<=59:
      print("D")
     else:
+       print("exit")
