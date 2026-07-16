@@ -1,5 +1,5 @@
 name=input("enter the name: ")
-age=input("enter the age: ")
+age=int(input("enter the age: "))
 course=input("enter the course: ")
 college=input("enter the college: ")
 print("\nStudent Information")
