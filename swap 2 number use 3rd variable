@@ -3,7 +3,7 @@ b=int(input("enter the value."))
 print("before swapping.")
 print("a=",a)
 print("b=",b)
-temp=a
+temp=a        #a,b=b,a  using third variable
 a=b
 b=temp
 print("after swapping.")
