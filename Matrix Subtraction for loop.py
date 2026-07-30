@@ -1,9 +1,14 @@
-matrix = [
-    [5, 8],
-    [1, 3]
+A = [
+    [6, 8],
+    [8, 9]
 ]
 
-for j in range(2):
-    for i in range(2):
-        print([i]+[j], end=" ")
+B = [
+    [1, 6],
+    [2, 5]
+]
+
+for i in range(2):
+    for j in range(2):
+        print(A[i][j] - B[i][j], end=" ")
     print()
