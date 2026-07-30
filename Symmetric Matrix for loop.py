@@ -1,3 +1,5 @@
+Symmetric Matrix = Transpose aur Original Matrix bilkul same hote hain.
+
 matrix = [
     [1, 2, 3],
     [2, 4, 5],
