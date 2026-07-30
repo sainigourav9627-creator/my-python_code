@@ -11,4 +11,9 @@ for i in range(rows - 2, -1, -1):
         else:
             print(" ", end="")
     print()
+
+ *     *
+  *   *
+   * *
+    *
     
