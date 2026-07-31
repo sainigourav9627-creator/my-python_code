@@ -9,7 +9,7 @@ num = num // 10	                      Last digit hatane ke liye
 digit ** 3	                         Digit ka cube
 if total == original	           Armstrong check
 
-num=int(input("enter the armstrong numbe:"))
+num=int(input("enter the armstrong number:"))
 original=num
 total=0
 while num > 0:
@@ -17,6 +17,6 @@ while num > 0:
    total=total+digit**3
    num=num//10
 if total==original:
-     print("amrstrong number")
+     print("Amrstrong number")
 else:
        print("Not armstrong number")
