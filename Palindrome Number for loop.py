@@ -11,7 +11,7 @@ original = num → Compare ke liye ✔️
 ✅ if reverse == original → Compare karne ke liye ✔️
 
 ⭐ Compare
-num=int(input("enter the armstrong numbe:"))
+num=int(input("enter the armstrong number:"))
 original=num
 reverse=0
 while num > 0:
@@ -22,3 +22,5 @@ if reverse==original:
      print("Palindrome Number")
 else:
        print("NotPalindrome Number")
+  
+121 141 151 1331 1441
