@@ -20,3 +20,5 @@ if total==original:
      print("Amrstrong number")
 else:
        print("Not armstrong number")
+
+370 371 407 123 100
