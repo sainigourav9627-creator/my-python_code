@@ -1,0 +1,3 @@
+def cube(num):
+    print("cube =",num*num*num)
+cube(4)
