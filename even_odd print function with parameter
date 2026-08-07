@@ -1,0 +1,18 @@
+use se value 
+
+def even_odd(num):
+     if num%2==0:
+      print("even")
+     else:
+         print("odd")
+num = int(input("enter the number:"))
+even_odd(num)
+
+direct value
+
+def even_odd(num):
+     if num%2==0:
+      print("even")
+     else:
+         print("odd")
+even_odd(7)
