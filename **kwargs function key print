@@ -1,0 +1,5 @@
+def student(**data):
+    for key in data:
+        print(key)
+
+student(name="Gourav", age=25, city="Sambhal")
