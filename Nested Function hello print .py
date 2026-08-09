@@ -1,7 +1,10 @@
-def hello():
+def student():
 
-    def message():
-        print("Hello Python")
+    def details():
+        print("Name: Gourav")
+        print("Course: Python")
+        print("Age: 25")
 
-    message()
-hello()
+    details()
+
+student()
