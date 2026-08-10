@@ -8,3 +8,13 @@ reduce()     →       पूरी list को एक result में combine 
 MAP → Modify
 FILTER → Select
 REDUCE → One Result
+
+
+अब तीनों को एक साथ याद रखो:
+Function	काम
+
+map()	         हर value को बदलना
+filter()	     condition से values चुनना
+reduce()	     सभी values को एक result में बदलना
+
+अब Lambda + map(), filter(), reduce() का basic हिस्सा complete हो गया। ✅
