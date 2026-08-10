@@ -1,12 +1,17 @@
 Memory Trick
-
 map = हर item पर काम करो
 
+
+map() → values को बदलता है
+[1,2,3] → [2,4,6]
+
+
+
 numbers = [1, 2, 3, 4]
-
 result = list(map(lambda n: n * 2, numbers))
-
 print(result)
+
+
 
 
 सबसे जरूरी
