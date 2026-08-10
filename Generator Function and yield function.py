@@ -10,3 +10,12 @@ def numbers():
 
 for n in numbers():
     print(n)
+
+
+yield kya karta hai?
+yield function ko value deta hai aur wahi par temporarily pause kar deta hai.
+
+    def numbers():
+    yield 1
+    yield 2
+    yield 3
