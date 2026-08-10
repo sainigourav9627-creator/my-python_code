@@ -24,3 +24,13 @@ yield = value do + pause + baad mein continue
 
 Generator ka main benefit hai ki bahut saari values ko ek saath memory mein rakhne ke bajay ek-ek karke produce kar sakta hai.
 Abhi bas Generator + yield ka basic concept samjho. Iske baad next() se dekhenge ki generator kaise step-by-step chalta hai.
+
+
+
+    Memory Trick
+
+return → Stop 🛑
+
+yield → Pause ⏸️
+
+next() → Resume ▶️
