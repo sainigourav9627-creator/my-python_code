@@ -1,0 +1,12 @@
+def vowels():
+    text = "python programming"
+    count = 0
+
+    for char in text:
+        if char in "aeiou":
+            count = count + 1
+
+    return count
+
+result = vowels()
+print(result)
