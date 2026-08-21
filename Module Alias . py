@@ -1,0 +1,3 @@
+import amit as m
+
+print(m.multiply(7, 8))
