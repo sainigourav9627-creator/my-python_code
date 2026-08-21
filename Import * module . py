@@ -1,0 +1,5 @@
+from amit import *
+
+print(add(15, 10))
+print(multiply(6, 7))
+print(square(9))
