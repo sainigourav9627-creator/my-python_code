@@ -3,3 +3,8 @@ import datetime
 today = datetime.date.today()
 
 print(today)
+
+
+datetime → module
+date     → module के अंदर class
+today()  → current date
