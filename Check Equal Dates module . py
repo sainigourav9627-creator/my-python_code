@@ -1,0 +1,9 @@
+import datetime
+
+d2 = datetime.date(2026, 3, 10)
+d1 = datetime.date(2026, 3, 10)
+
+if d1 == d2:
+    print("True")
+else:
+    print("False")
