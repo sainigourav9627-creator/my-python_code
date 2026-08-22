@@ -1,0 +1,40 @@
+import datetime
+
+d1 = datetime.date.today()
+d2 = datetime.datetime.now()
+d3 = datetime.datetime.now().time()
+
+d4 = datetime.date(2026, 5, 20)
+d5 = datetime.date(2026, 8, 10)
+d6 = datetime.date(2026, 8, 20)
+
+d7 = datetime.date(2026, 6, 20)
+d8 = datetime.date(2026, 6, 10)
+
+print(d1)
+print(d2)
+print(d3)
+
+print("Year   :    "    ,    d4.year)
+print("Month  :    "    ,    d4.month)
+print("DAY    :    "    ,    d4.day)
+
+diffrence = d6 - d5
+print(diffrence.days)
+
+if d7 > d8:
+    print("\nGreater than")
+else:
+    print("Not Greater")
+
+
+if d7 < d8:
+    print("Less than")
+else:
+    print("\nNot Less than")
+
+
+if d7 == d8:
+    print("equal")
+else:
+    print("\nnot equal")
