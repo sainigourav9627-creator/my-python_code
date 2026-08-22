@@ -1,0 +1,5 @@
+import datetime
+
+d = datetime.date(2026, 1, 1)
+
+print(d)
