@@ -1,0 +1,13 @@
+import datetime
+
+d1 = datetime.date(2026, 2,10)
+
+d2 = datetime.date(2026, 2,20)
+
+if d1 == d2:
+
+    print("Dates are same")
+
+else:
+
+    print("Dates are different")
