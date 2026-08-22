@@ -1,0 +1,7 @@
+import datetime
+d1 = datetime.date(2026,1,1)
+d2  = datetime.date(2026,1,10)
+print(d2-d1
+
+
+timedelta Python में दो dates या times के बीच का difference represent करने वाला object है।
