@@ -1,0 +1,6 @@
+import datetime
+
+d1 = datetime.date(2026, 12, 25)
+d2 = datetime.date(2026, 12, 31)
+
+print(d2 - d1)
