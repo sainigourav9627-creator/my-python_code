@@ -1,0 +1,8 @@
+import datetime
+
+d = datetime.date(2026,12,25)
+print(d.strftime("%W"))
+
+
+%U → Week Sunday से शुरू
+%W → Week Monday से शुरू
