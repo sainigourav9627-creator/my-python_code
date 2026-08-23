@@ -1,3 +1,15 @@
+Basic Date Codes:
+
+%d — Day
+%m — Month Number
+%Y — Year
+%B — Full Month
+%b — Short Month
+%A — Full Weekday
+%a — Short Weekday
+
+
+
 import datetime
 
 d1 = datetime.date.today()
