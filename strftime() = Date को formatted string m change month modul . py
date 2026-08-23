@@ -1,0 +1,6 @@
+import datetime
+d = datetime.date(2026,12,25)
+
+print(d.strftime("\n%m/%d/%Y"))     #Months change
+print(d.strftime("%d/%m/%Y"))
+print(d.strftime("%d/%Y/%m"))
