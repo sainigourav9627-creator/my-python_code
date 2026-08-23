@@ -5,6 +5,8 @@ d2 = datetime.datetime.now()
 d3 = datetime.datetime.now().time()
 
 d4 = datetime.date(2026, 5, 20)
+
+
 d5 = datetime.date(2026, 8, 10)
 d6 = datetime.date(2026, 8, 20)
 
@@ -38,3 +40,210 @@ if d7 == d8:
     print("equal")
 else:
     print("\nnot equal")
+
+
+#Date Format Using /
+
+d = datetime.date(2026,5,20)
+
+print(d.strftime("\n%d/%m/%Y"))     #Date change
+print(d.strftime("%m/%d/%Y"))
+print(d.strftime("%m/%Y/%d"))
+
+print(d.strftime("\n%m/%d/%Y"))     #Months change
+print(d.strftime("%d/%m/%Y"))
+print(d.strftime("%d/%Y/%m"))
+
+print(d.strftime("\n%Y/%m/%d"))       #Year change
+print(d.strftime("%m/%Y/%d"))
+print(d.strftime("%m/%d/%Y"))
+
+
+
+#Date Format Using -
+
+print(d.strftime("\n%d-%m-%Y"))     #Date change
+print(d.strftime("%m-%d-%Y"))
+print(d.strftime("%m-%Y-%d"))
+
+print(d.strftime("\n%m-%d-%Y"))     #Months change
+print(d.strftime("%d-%m-%Y"))
+print(d.strftime("%d-%Y-%m"))
+
+print(d.strftime("\n%Y-%m-%d"))       #Year change
+print(d.strftime("%m-%Y-%d"))
+print(d.strftime("%m-%d-%Y"))
+
+
+
+
+
+#Full month and short month
+
+
+
+d = datetime.date(2026,12,25)
+
+
+print(d.strftime("\n%d/%b/%Y"))     #short month
+print(d.strftime("%b/%d/%Y"))
+print(d.strftime("%b/%Y/%d"))
+
+print(d.strftime("\n%B/%d/%Y"))     #Full month name
+print(d.strftime("%d/%B/%Y"))
+print(d.strftime("%d/%Y/%B"))
+
+
+
+
+#Full Weekday Name and short weekly name
+
+
+d = datetime.date(2026,12,25)
+
+
+print(d.strftime("\n%a/%d/%Y"))     
+print(d.strftime("%d/%a/%Y"))
+print(d.strftime("%d/%Y/%a"))
+
+print(d.strftime("\n%d/%A/%Y"))     
+print(d.strftime("%A/%d/%Y"))
+print(d.strftime("%A/%Y/%d"))
+
+
+#Full Date Format
+d = datetime.date(2026, 12, 25)
+print(d.strftime("\n%A,%d %B %Y"))
+
+
+
+#Full Date + Short Month
+d = datetime.date(2026, 12, 25)
+print(d.strftime("\n%A, %d %b %Y"))
+
+
+
+#Short Weekday + Short Month
+d = datetime.date(2026, 12, 25)
+print(d.strftime("%a, %d %b %Y"))
+
+
+
+#Month/Year Format
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%B %Y"))
+
+
+
+#Short Month + Year
+d = datetime.date(2026,12,25)
+print(d.strftime("%b %Y"))
+
+
+#Day + Full Month
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%d %B"))
+
+
+#Day + Short Month
+d = datetime.date(2026,12,25)
+print(d.strftime("%d %b"))
+
+
+#Full Weekday + Day
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%A %d"))
+
+
+#Short Weekday + Day
+d = datetime.date(2026,12,25)
+print(d.strftime("%a %d"))
+
+
+#Full Weekday + Full Month
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%A %B"))
+
+
+#Short Weekday + Short Month
+d = datetime.date(2026,12,25)
+print(d.strftime("%a %b"))
+
+
+#Full Date in Different Order
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%Y %B %d"))
+
+
+
+#Short Format in Different Order
+d = datetime.date(2026,12,25)
+print(d.strftime("%Y %b %a"))
+
+
+#Short Format in Different Order
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%Y%b %a"))
+
+
+#Full Format in Different Order
+d = datetime.date(2026,12,25)
+print(d.strftime("%B %A %Y"))
+
+
+#Full Date with -
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%A-%d-%B-%Y"))
+
+
+
+#Short Date with -
+d = datetime.date(2026,12,25)
+print(d.strftime("%a-%d-%b-%Y"))
+
+
+#Full Date with /
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%A/%d/%B/%Y"))
+
+
+#Short Date with /
+d = datetime.date(2026,12,25)
+print(d.strftime("%a/%d/%b/%Y"))
+
+
+#Month Number + Year
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%m/%Y"))
+
+
+#Day + Month Number + Year
+d = datetime.date(2026,12,25)
+print(d.strftime("%d/%m/%Y"))
+
+
+#Year + Month Number + Day
+d = datetime.date(2026,12,25)
+print(d.strftime("%Y/%m/%d"))
+
+
+#Month Number + Day + Year
+d = datetime.date(2026,12,25)
+print(d.strftime("%m/%d/%Y"))
+
+
+#Day + Full Month + Year
+d = datetime.date(2026,12,25)
+print(d.strftime("\n%d %B %Y"))
+
+
+#Day + Short Month + Year
+d = datetime.date(2026,12,25)
+print(d.strftime("%d %b %Y"))
+
+
+
+
+
+
+
