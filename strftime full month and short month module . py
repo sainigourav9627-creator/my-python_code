@@ -1,0 +1,12 @@
+import datetime
+
+d = datetime.date(2026,12,25)
+
+
+print(d.strftime("\n%d/%b/%Y"))     #short month
+print(d.strftime("%b/%d/%Y"))
+print(d.strftime("%b/%Y/%d"))
+
+print(d.strftime("\n%B/%d/%Y"))     #Full month name
+print(d.strftime("%d/%B/%Y"))
+print(d.strftime("%d/%Y/%B"))
