@@ -1,0 +1,12 @@
+from datetime import datetime
+
+date = datetime.strptime("25-08-2026 14:30:25", "%d-%m-%Y %H:%M:%S")
+print(date)
+
+
+%d → Day
+%m → Month
+%Y → Year
+%H → Hour
+%M → Minute
+%S → Second
