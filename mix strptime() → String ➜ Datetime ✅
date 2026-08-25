@@ -1,5 +1,6 @@
 # syntax  datetime.strptime("date_string", "format")
 
+
 from datetime import datetime
 
 date = datetime.strptime("25-08-2026", "%d-%m-%Y")
@@ -14,25 +15,30 @@ date = datetime.strptime(date_string, "%d-%m-%Y")
 print(date)
 
 
+
 #strptime() — Program 3: Date + Time को Datetime में Convert करना
 
 date = datetime.strptime("25-08-2026 14:30:25", "%d-%m-%Y %H:%M:%S")
 print(date)
 
-##strptime() — Program 4: User Input से Date + Time Convert करना
+
+
+#strptime() — Program 4: User Input से Date + Time Convert करना
 
 date_string = input("\nEnter date and time: ")
 date = datetime.strptime(date_string, "%d-%m-%Y %H:%M:%S")
 print(date)
 
 
-#strptime() — Program 5: Converted Date से Year, Month और Day निकालना
 
+#strptime() — Program 5: Converted Date से Year, Month और Day निकालना
 
 date = datetime.strptime("25-08-2026", "%d-%m-%Y")
 print(date.year)
 print(date.month)
 print(date.day)
+
+
 
 #strptime() — Program 6: Converted Date का Weekday Number निकालना
 
@@ -47,10 +53,13 @@ print(day)
 date = datetime.strptime("2000-8-2", "%Y-%m-%d")
 print(date)
 
+
+
 #strptime() — Program 8: Text Month वाली Date Convert करना
 
 date = datetime.strptime("25 August 2026", "%d %B %Y")
 print(date)
+
 
 
 #Short Month Name
@@ -58,20 +67,28 @@ print(date)
 date = datetime.strptime("25 Aug 2026", "%d %b %Y")
 print(date)
 
+
+
 #केवल Time को strptime() से Convert करना
 
 date = datetime.strptime("14:30:25", "%H:%M:%S")
 print(date)
+
+
 
 #12-Hour Time को strptime() से Convert करना
 
 date = datetime.strptime("10:30:25 PM", "%I:%M:%S %p")
 print(date)
 
+
+
 #12-Hour Time — AM के साथ
 
 date = datetime.strptime("10:30:25 AM", "%I:%M:%S %p")
 print(date)
+
+
 
 #Date + 12-Hour Time (AM/PM)
 
@@ -81,6 +98,8 @@ date = datetime.strptime(
 )
 
 print(date)
+
+
 
 
 #User Input — Date + 12-Hour Time (AM/PM)
@@ -93,6 +112,8 @@ date = datetime.strptime(
 )
 
 print(date)
+
+
 
 #strptime() से Date और Time Parts निकालना
 
@@ -109,6 +130,8 @@ print(date.minute)
 print(date.second)
 
 
+
+
 #strptime() से दो Dates Compare करना
 
 
@@ -122,6 +145,8 @@ elif date1 < date2:
 else:
     print("both date are equal")
 
+
+
 #strptime() से दो Dates का Difference निकालना
 
 date1 = datetime.strptime("25-08-2026", "%d-%m-%Y")
@@ -129,6 +154,8 @@ date2 = datetime.strptime("30-08-2026", "%d-%m-%Y")
 
 difference = date2 - date1
 print(difference.days)
+
+
 
 
 #User की दो Dates का Difference
@@ -143,6 +170,8 @@ difference = date2 - date1
 
 print(difference.days)
 
+
+
 #strptime() — Program 19: User Date + Time का Difference
 
 date1_string = input("Enter first date and time: ")
@@ -156,6 +185,8 @@ date2 = datetime.strptime(date2_string, "%d-%m-%Y %H:%M:%S")
 difference = date2 - date1
 
 print(difference)
+
+
 
 
 #strptime() — Program 20: Date + 12-Hour AM/PM Time Difference
@@ -175,6 +206,8 @@ difference = date2 - date1
 print(difference)
 
 
+
+
 #strptime() — Program 21: User Input — Date + 12-Hour AM/PM
 
 date_string = input("Enter date and time: ")
@@ -187,11 +220,15 @@ date = datetime.strptime(
 print(date)
 
 
+
+
 #strptime() — Program 22: / वाले Date Format को Convert करना
 
 date = datetime.strptime("25/08/2026", "%d/%m/%Y")
 
 print(date)
+
+
 
 
 #strptime() — Program 23: YYYY/MM/DD Format
@@ -201,11 +238,15 @@ date = datetime.strptime("2026/08/25", "%Y/%m/%d")
 print(date)
 
 
+
+
 #strptime() — Program 24: DD Month YYYY — Full Month Name
 
 date = datetime.strptime("25 December 2026", "%d %B %Y")
 
 print(date)
+
+
 
 
 #strptime() — Program 25: DD Mon YYYY — Short Month Name
