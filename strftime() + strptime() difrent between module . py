@@ -1,0 +1,26 @@
+strftime() — datetime → String
+
+from datetime import datetime
+
+now = datetime.now()
+
+date = now.strftime("%d-%m-%Y")
+print(date)
+print(type(date))
+
+
+
+strptime() — String → datetime
+
+
+
+from datetime import datetime
+
+date = datetime.strptime("25-08-2026", "%d-%m-%Y")
+
+print(date)
+print(type(date))
+
+
+
+
