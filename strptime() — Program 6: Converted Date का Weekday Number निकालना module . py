@@ -1,0 +1,5 @@
+from datetime import datetime
+
+date = datetime.strptime("28-08-2026", "%d-%m-%Y")
+day = date.weekday()
+print(day)
