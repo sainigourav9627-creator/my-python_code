@@ -18,20 +18,31 @@ import datetime
 
 d = datetime.datetime.now()
 
+
 # %H → 24-Hour
 print(d.strftime("%H"))
+
+
 
 # %I → 12-Hour
 print(d.strftime("%I"))
 
+
+
 # %p → AM / PM
 print(d.strftime("%p"))
+
+
 
 # %M → Minutes
 print(d.strftime("%M"))
 
+
+
 # %S → Seconds
 print(d.strftime("%S"))
+
+
 
 # 24-Hour + Minutes + Seconds
 print(d.strftime("%H:%M:%S"))
