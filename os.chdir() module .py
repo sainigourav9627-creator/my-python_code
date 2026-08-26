@@ -1,0 +1,24 @@
+chdir() = Change Directory
+
+Iska use current working directory ko change karne ke liye hota hai.
+
+Syntax:
+os.chdir("folder_path")
+
+import os
+
+os.chdir("C:\\Users\\Gourav\\Documents")
+
+print(os.getcwd())
+
+
+
+Practice
+
+Aap apne laptop par ek folder ka path dekar ye program likho:
+
+import os
+
+os.chdir("________")
+print(os.getcwd())
+
