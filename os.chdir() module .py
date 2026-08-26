@@ -22,3 +22,19 @@ import os
 os.chdir("________")
 print(os.getcwd())
 
+
+
+तरीका 1 — Raw string ⭐
+import os
+
+os.chdir(r"C:\Users\YourName\OneDrive\Desktop")
+
+print(os.getcwd())
+
+
+तरीका 2 — Double \\
+import os
+
+os.chdir("C:\\Users\\YourName\\OneDrive\\Desktop")
+
+print(os.getcwd())
