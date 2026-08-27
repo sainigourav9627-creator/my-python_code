@@ -1,0 +1,99 @@
+| #  | Function             | Syntax                   | Kaam                               |
+| -- | -------------------- | ------------------------ | ---------------------------------- |
+| 1  | `os.getcwd()`        | `os.getcwd()`            | Current working directory ka path  |
+| 2  | `os.listdir()`       | `os.listdir(path)`       | Files/folders ki list              |
+| 3  | `os.chdir()`         | `os.chdir(path)`         | Working directory change           |
+| 4  | `os.mkdir()`         | `os.mkdir("folder")`     | **Ek** naya folder banana          |
+| 5  | `os.makedirs()`      | `os.makedirs("a/b/c")`   | **Nested folders** banana          |
+| 6  | `os.rmdir()`         | `os.rmdir("folder")`     | **Empty folder** delete            |
+| 7  | `os.remove()`        | `os.remove("file")`      | File delete                        |
+| 8  | `os.rename()`        | `os.rename("old","new")` | File/folder ka naam change         |
+| 9  | `os.path.exists()`   | `os.path.exists(path)`   | Path exist karta hai ya nahi       |
+| 10 | `os.path.isfile()`   | `os.path.isfile(path)`   | Path **file** hai ya nahi          |
+| 11 | `os.path.isdir()`    | `os.path.isdir(path)`    | Path **folder** hai ya nahi        |
+| 12 | `os.path.join()`     | `os.path.join(a,b)`      | Paths ko safely join karna         |
+| 13 | `os.path.basename()` | `os.path.basename(path)` | Path ka **last name**              |
+| 14 | `os.path.dirname()`  | `os.path.dirname(path)`  | Directory ka path                  |
+| 15 | `os.path.abspath()`  | `os.path.abspath(path)`  | Absolute/complete path             |
+| 16 | `os.path.getsize()`  | `os.path.getsize(file)`  | File size **bytes** mein           |
+| 17 | `os.environ`         | `os.environ["NAME"]`     | Environment variable access        |
+| 18 | `os.environ.get()`   | `os.environ.get("NAME")` | Environment variable safely access |
+| 19 | `os.walk()`          | `os.walk(path)`          | Folder की पूरी hierarchy traverse  |
+
+
+सबसे जरूरी differences
+
+
+os.mkdir()                 → एक folder
+os.makedirs()              → nested folders
+
+os.rmdir()                 → empty folder delete
+os.remove()                → file delete
+
+os.path.exists()          → मौजूद है?
+os.path.isfile()          → file है?
+os.path.isdir()           → folder है?
+
+basename()                → आखिरी नाम
+dirname()                 → directory path
+
+join()                   → paths जोड़ना
+abspath()                → complete path
+getsize()                → file size
+
+
+
+
+
+
+os
+│
+├── Location
+│   ├── getcwd()
+│   └── chdir()
+│
+├── List
+│   └── listdir()
+│
+├── Create
+│   ├── mkdir()
+│   └── makedirs()
+│
+├── Delete
+│   ├── rmdir()
+│   └── remove()
+│
+├── Rename
+│   └── rename()
+│
+├── Path Check
+│   ├── exists()
+│   ├── isfile()
+│   └── isdir()
+│
+├── Path Handling
+│   ├── join()
+│   ├── basename()
+│   ├── dirname()
+│   ├── abspath()
+│   └── getsize()
+│
+├── Environment
+│   ├── environ
+│   └── environ.get()
+│
+└── Traverse
+    └── walk()
+
+
+Python_Practice
+│
+├── test.txt
+│
+├── Python
+│   ├── program.py
+│   └── Notes
+│       └── notes.txt
+│
+└── Data
+    └── marks.csv
