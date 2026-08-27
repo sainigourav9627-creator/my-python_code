@@ -1,0 +1,13 @@
+import os
+
+os.path.exists("path")
+
+
+import os
+
+path = r"C:\Users\ajski\OneDrive\Desktop\Python_Practice"
+
+if os.path.exists(path):
+    print("Folder exists")
+else:
+    print("Folder does not exist")
