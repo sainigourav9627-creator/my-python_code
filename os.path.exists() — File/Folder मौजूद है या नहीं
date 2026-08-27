@@ -3,6 +3,38 @@ import os
 os.path.exists("path")
 
 
+Program 1 — Folder check
+
+import os
+
+path = r"C:\Users\ajski\OneDrive\Desktop\Python_Practice"
+
+print(os.path.exists(path))
+
+
+
+Program 2 — File check
+
+
+Python_Practice में कोई file बना लो, जैसे test.txt:
+
+
+import os
+
+path = r"C:\Users\ajski\OneDrive\Desktop\Python_Practice\test.txt"
+
+if os.path.exists(path):
+    print("File exists")
+else:
+    print("File does not exist")
+
+
+
+
+
+os.path.exists() का main practical program यही है जो अभी हमने किया:
+
+
 import os
 
 path = r"C:\Users\ajski\OneDrive\Desktop\Python_Practice"
