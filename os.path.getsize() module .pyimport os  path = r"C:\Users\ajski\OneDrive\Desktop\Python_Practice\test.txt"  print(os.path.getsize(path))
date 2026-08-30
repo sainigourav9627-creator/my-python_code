@@ -1,0 +1,24 @@
+os.path.getsize()
+
+os.path.getsize() का use किसी file का size bytes में पता करने के लिए होता है।
+
+
+Syntax
+os.path.getsize("file_path")
+
+import os
+
+path = r"C:\Users\ajski\OneDrive\Desktop\Python_Practice\test.txt"
+
+print(os.path.getsize(path))
+
+
+Output कुछ ऐसा हो सकता है:
+
+12
+
+
+
+
+
+
