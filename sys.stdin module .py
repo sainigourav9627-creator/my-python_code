@@ -5,6 +5,7 @@ sys.stdin का उपयोग user से input लेने के लिए
 
 import sys
 
-name = sys.stdin.readline()
+print("Enter your name:")
+name = sys.stdin.readline().strip()
 
-print("Hello", name)
+print("Welcome", name)
