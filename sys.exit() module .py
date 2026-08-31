@@ -6,4 +6,8 @@ sys.exit() का उपयोग Python program को तुरंत बं�
 
 import sys
 
+print("Program Start")
+
 sys.exit()
+
+print("Program End")
