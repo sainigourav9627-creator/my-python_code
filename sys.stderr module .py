@@ -7,5 +7,9 @@ Python में errors या warning messages को standard error stream प
 
 import sys
 
-sys.stdout.write("This is normal output\n")
-sys.stderr.write("This is error output\n")
+age = int(input("Enter your age: "))
+
+if age < 18:
+    sys.stderr.write("Error: You are not eligible\n")
+else:
+    print("You are eligible")
