@@ -24,6 +24,14 @@ data = {
     "value": None
 }
 
-result = json.dumps(data)
 
-print(result)
+    JSON के 4 functions — Final Chart
+
+    
+dumps() → Python → JSON String
+loads() → JSON String → Python
+
+dump()  → Python → JSON File
+load()  → JSON File → Python
+
+
