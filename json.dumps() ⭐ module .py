@@ -1,3 +1,6 @@
+dumps() → Python → JSON String
+
+
 import json
 
 data = {
