@@ -1,0 +1,42 @@
+| Code           | क्या मिलता है                    |
+| -------------- | -------------------------------- |
+| `now.tm_year`  | Year                             |
+| `now.tm_mon`   | Month                            |
+| `now.tm_mday`  | Day / Date                       |
+| `now.tm_hour`  | Hour                             |
+| `now.tm_min`   | Minute                           |
+| `now.tm_sec`   | Second                           |
+| `now.tm_wday`  | Weekday number                   |
+| `now.tm_yday`  | Year का कौन-सा day               |
+| `now.tm_isdst` | Daylight Saving Time information |
+
+
+  सबसे जरूरी
+now.tm_hour → Hour
+now.tm_min  → Minute
+now.tm_sec  → Second
+एक साथ निकालना
+
+  
+  
+  import time
+
+now = time.localtime()
+
+print("Hour:", now.tm_hour)
+print("Minute:", now.tm_min)
+print("Second:", now.tm_sec)
+
+
+
+    याद रखने का तरीका 🧠
+localtime()
+    ↓
+    now
+    ↓
+tm_year → Year
+tm_mon  → Month
+tm_mday → Date
+tm_hour → Hour
+tm_min  → Minute
+tm_sec  → Second
