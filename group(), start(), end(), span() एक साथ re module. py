@@ -1,0 +1,10 @@
+import re
+
+text = "My age is 32"
+
+match = re.search(r"\d+", text)
+
+print("Value:", match.group())
+print("Start:", match.start())
+print("End:", match.end())
+print("Span:", match.span())
