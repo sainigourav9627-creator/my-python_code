@@ -1,4 +1,4 @@
-file = open("student.txt", "r")
+file = open("student.txt")
 
 print("File opened")
 
