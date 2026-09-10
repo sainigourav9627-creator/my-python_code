@@ -1,0 +1,37 @@
+# 1. Create a new file using x mode
+file = open("practice.txt", "x")
+
+file.write("My name is Gourav.\n")
+file.write("I am learning Python.")
+
+file.close()
+
+
+# 2. Read the file using r mode
+file = open("practice.txt", "r")
+
+data = file.read()
+
+print("File Data:")
+print(data)
+
+file.close()
+
+
+# 3. Append new data using a mode
+file = open("practice.txt", "a")
+
+file.write("\nI am learning File Handling.")
+
+file.close()
+
+
+# 4. Read the updated file
+file = open("practice.txt", "r")
+
+data = file.read()
+
+print("\nUpdated File Data:")
+print(data)
+
+file.close()
