@@ -1,0 +1,23 @@
+file = open("student.txt", "r")
+
+data = file.read()
+
+print(data)
+
+file.close()
+
+
+
+Output:
+
+My name is Gourav.
+I am learning Python.
+
+
+
+
+⭐ Important:
+
+r = Read
+
+और r mode में सामान्यतः file पहले से मौजूद होनी चाहिए, वरना FileNotFoundError आएगा।
