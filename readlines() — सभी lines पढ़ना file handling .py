@@ -8,5 +8,6 @@ file = open("student.txt", "r")
 lines = file.readlines()
 
 print(lines)
+print(lines[0])
 
 file.close()
