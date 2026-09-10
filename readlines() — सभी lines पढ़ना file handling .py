@@ -1,0 +1,12 @@
+file.readlines()
+
+से file की सारी lines एक साथ मिलती हैं।
+
+
+file = open("student.txt", "r")
+
+lines = file.readlines()
+
+print(lines)
+
+file.close()
