@@ -1,6 +1,8 @@
 try:
-    age = int(input("Enter age: "))
-    print("Age:", age)
+    a = 10
+    b = 0
 
-except ValueError as e:
+    print(a / b)
+
+except ZeroDivisionError as e:
     print("Error:", e)
