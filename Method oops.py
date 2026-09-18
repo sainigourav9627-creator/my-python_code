@@ -1,22 +1,8 @@
 class Student:
 
-    def study(self):
+    def show(self):
         print("Student is studying")
-
-
-study() → Method
 
 s1 = Student()
 
-s1.study()
-
-
-class Student:
-
-    def study(self):
-        print("Student is studying")
-
-
-s1 = Student()
-
-s1.study()
+s1.show()
