@@ -1,0 +1,19 @@
+class Parent():
+    def __init__(self):
+        self.name = "Gourav"                 # Parent Constructor
+
+    def show(self):
+        print(self.name)                     # Parent Method
+
+
+class Child(Parent):
+    def __init__(self):
+        super().__init__()                   # Parent Constructor Call
+        self.age = 25                        # Child Constructor
+
+
+c = Child()
+
+print(c.name)                                # Parent Data
+print(c.age)                                 # Child Data
+c.show()                                     # Parent Method
