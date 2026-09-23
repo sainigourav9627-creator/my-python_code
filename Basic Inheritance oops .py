@@ -1,0 +1,12 @@
+class Parent:
+    def show(self):
+        print("This is Parent")
+
+
+class Child(Parent):
+    pass
+
+
+c = Child()
+
+c.show()
