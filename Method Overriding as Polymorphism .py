@@ -1,10 +1,15 @@
-class Dog:
+class Animal:
     def sound(self):
+        print("Animal sound")
+
+
+class Dog(Animal):
+    def sound(self):                 # NEW: Method Overriding
         print("Bark")
 
 
-class Cat:
-    def sound(self):
+class Cat(Animal):
+    def sound(self):                 # NEW: Method Overriding
         print("Meow")
 
 
