@@ -1,0 +1,108 @@
+from abc import ABC, abstractmethod
+
+
+class Student(ABC):
+    school = "ABC School"
+
+    def __init__(self, name, age, course, marks):
+        self.name = name
+        self.age = age
+        self.course = course
+        self.__marks = marks
+
+    @abstractmethod
+    def display(self):
+        pass
+
+    def show(self):
+        print(self.name)
+        print(self.age)
+        print(self.course)
+
+    def info(self, *args):
+        print(args)
+
+    def __add__(self, other):
+        return self.marks + other.marks
+
+    @classmethod
+    def change_school(cls, school):
+        cls.school = school
+
+    @staticmethod
+    def message():
+        print("I like Java")
+
+    @property
+    def marks(self):
+        return self.__marks
+
+    @marks.setter
+    def marks(self, value):
+        if 0 <= value <= 100:
+            self.__marks = value
+        else:
+            print("Invalid marks")
+
+
+class GraduateStudent(Student):
+
+    def __init__(self, name, age, course, marks, specialization):
+        super().__init__(name, age, course, marks)
+        self.specialization = specialization
+
+    def display(self):
+        print("Graduate Student")
+
+    def show(self):
+        super().show()
+        print(self.specialization)
+
+
+class Teacher:
+
+    def show(self):
+        print("Teacher Profile")
+
+
+def display_student(student):
+    student.show()
+
+
+g1 = GraduateStudent("Rahul", 22, "MCA", 85, "Python")
+g2 = GraduateStudent("Amit", 24, "MCA", 80, "Python")
+
+print(g1.school)
+
+Student.change_school("XYZ School")
+print(g1.school)
+
+g1.message()
+
+t1 = Teacher()
+
+print(g1.name)
+print(g1.marks)
+
+g1.show()
+g1.display()
+
+display_student(g1)
+display_student(t1)
+
+total = g1 + g2
+print("Total Marks:", total)
+
+g1.marks = 95
+print("New Marks:", g1.marks)
+
+g1.marks = 150
+print("Marks:", g1.marks)
+
+print(isinstance(g1, GraduateStudent))
+print(isinstance(g1, Student))
+print(issubclass(GraduateStudent, Student))
+
+g1.info()
+g1.info("Rahul")
+g1.info("Rahul", 22, "MCA")
