@@ -1,0 +1,5 @@
+a = [0, 0, 10, 0]
+
+print(any(a))
+
+print(all(a))
