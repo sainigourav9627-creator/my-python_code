@@ -1,0 +1,14 @@
+marks = {
+    "Amit": 35,
+    "Ravi": 60,
+    "Neha": 80,
+    "Pooja": 25
+}
+
+passed = {
+    name: score
+    for name, score in marks.items()
+    if score >= 40
+}
+
+print(passed)
