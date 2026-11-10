@@ -1,0 +1,6 @@
+a = (10, 20)
+b = (30, 40)
+
+result = a + b
+
+print(result)
