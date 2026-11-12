@@ -1,0 +1,6 @@
+data = ("G", "o", "u", "r", "a", "v")
+
+result = "".join(data)
+
+print(result)
+print(type(result))
