@@ -1,4 +1,4 @@
-text = "PYTHON PROGRAMMING"
+text = "Straße"
 
-result = text.casefold()
-print(result)
+print(text.lower())
+print(text.casefold())
